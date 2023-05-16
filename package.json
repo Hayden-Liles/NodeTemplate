@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "cl-serve",
+    "debug": "node index.js",
+    "start": "node index.js",
+    "dev": "node index.js",
+    "setup": "npm install",
     "sass": "sass --watch assets/scss/main.scss:assets/style/main.css"
   },
   "author": "Hayden Liles | CodeLabrynth",
